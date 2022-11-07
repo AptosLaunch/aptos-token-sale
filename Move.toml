@@ -1,0 +1,11 @@
+[package]
+name = 'AptosTokenSale'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+token_sale="0xc2551e38e8d2aaf71b6f8b69458e6ebe5d649d4014fb90e546c95a394ca1f2f7"
+collect_address="0x44eaeecb0ef39947b9491af6fd26ed22e43cd5fc1414f0f391562a841a863cf9"
